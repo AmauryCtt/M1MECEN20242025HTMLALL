@@ -108,6 +108,17 @@ header img {
     background-size: cover;
 }
 
+#cocktails>div h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 800;
+    background-color: #00000080;
+    padding: 5px;
+    border: ;
+}
+
+
 footer {
     display: flex;
     align-items: center;
