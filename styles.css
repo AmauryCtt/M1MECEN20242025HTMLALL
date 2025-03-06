@@ -115,9 +115,28 @@ header img {
     font-weight: 800;
     background-color: #00000080;
     padding: 5px;
-    border: ;
+    border-radius: 10px;
 }
 
+.overlay {
+    height: :100%;
+    border: 2px solid #f25a29;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+.overlay img {
+    width: 140px;
+}
+
+.overlay p {
+    font-size: 25px;
+    text-align: center
+}
 
 footer {
     display: flex;
